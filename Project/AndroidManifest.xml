@@ -19,6 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Location"> </activity>
+         <activity android:name=".entryForm"> </activity>
     </application>
 
 </manifest>

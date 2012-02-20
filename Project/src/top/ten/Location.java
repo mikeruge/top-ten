@@ -25,9 +25,8 @@ public class Location extends Activity
 			}
 			if(v==newButton)
 			{
-				Intent newIntent = new Intent();
-				setResult(RESULT_OK, newIntent);
-                finish();
+				Intent nextIntent = new Intent(v.getContext(), entryForm.class);
+				startActivityForResult(nextIntent, 0);
 			}
 		}
 	};
