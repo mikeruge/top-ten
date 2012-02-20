@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/currentLoc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Use Current Location" />
+
+    <Button
+        android:id="@+id/specificLoc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Use Specific Location" />
+
+</LinearLayout>
