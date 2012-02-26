@@ -1,6 +1,7 @@
 package top.ten;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -32,8 +33,11 @@ public class entryForm extends Activity
 				}
 				else
 				{
+					
 					//do nothing, future error check
 				}
+				Intent anewIntent = new Intent(v.getContext(), catagories.class);
+				startActivityForResult(anewIntent, 0);
 			}
 		}
 	};

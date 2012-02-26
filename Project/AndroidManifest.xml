@@ -20,6 +20,7 @@
         </activity>
         <activity android:name=".Location"> </activity>
          <activity android:name=".entryForm"> </activity>
+           <activity android:name=".catagories" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" > </activity>
     </application>
 
 </manifest>
